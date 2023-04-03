@@ -1,4 +1,3 @@
-import { GlobalStyles } from '../../styles/global-styles';
 import * as Styled from './styles';
 
 function Home() {
@@ -7,7 +6,6 @@ function Home() {
       <Styled.Wrapper background="blue">
         <h1>Hello</h1>
       </Styled.Wrapper>
-      <GlobalStyles />
     </div>
   );
 }
