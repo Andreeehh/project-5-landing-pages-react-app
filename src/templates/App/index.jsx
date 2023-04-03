@@ -1,7 +1,13 @@
+import { GlobalStyles } from '../../styles/global-styles';
+import * as Styled from './styles';
+
 function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Styled.Wrapper background="blue">
+        <h1>Hello</h1>
+      </Styled.Wrapper>
+      <GlobalStyles />
     </div>
   );
 }
