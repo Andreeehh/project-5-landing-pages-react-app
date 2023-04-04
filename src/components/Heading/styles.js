@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Title = styled.h1`
   ${({ theme }) => css`
-    background: ${theme.colors.secondaryBg};
+    color: ${theme.colors.mainBg};
   `}
 `;

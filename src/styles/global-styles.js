@@ -7,10 +7,5 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    ${({ theme }) => {
-      return css`
-        background: ${theme.colors.mainBg};
-      `;
-    }}
   }
 `;
