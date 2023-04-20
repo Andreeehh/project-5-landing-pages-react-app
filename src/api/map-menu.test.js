@@ -52,7 +52,7 @@ describe('map-menu', () => {
     const links = mapMenuLinks([
       {
         open_in_new_tab: false,
-        link_text: 'pricing',
+        link_test: 'pricing',
         url: '#pricing',
       },
       {},

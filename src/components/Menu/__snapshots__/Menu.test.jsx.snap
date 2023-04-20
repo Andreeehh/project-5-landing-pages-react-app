@@ -66,7 +66,8 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 .c0 > svg {
-  width: 2.5rem, height:2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .c8 {
@@ -285,7 +286,8 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 .c0 > svg {
-  width: 2.5rem, height:2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .c8 {
