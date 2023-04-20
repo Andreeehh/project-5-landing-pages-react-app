@@ -23,14 +23,14 @@ export const mapSections = (sections = []) => {
 };
 
 export const mapSectionTwoColumns = (section = {}) => {
-  console.log('Section mapSEctionTwoColumns', section);
   const {
     __component: component = '',
     title = '',
     description: text = '',
-    image: { data: { attributes: { url: srcImg = '' } = '' } = '' } = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
   } = section;
+
+  const srcImg = section?.image?.data?.attributes?.url || '';
 
   return {
     component,
