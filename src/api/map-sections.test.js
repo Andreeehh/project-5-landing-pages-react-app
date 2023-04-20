@@ -67,8 +67,12 @@ describe('map-sections', () => {
       },
       __v: 1,
       image: {
-        alternativeText: 'Desenho de pessoas segurando logos do CSS, JS e HTML',
-        url: 'a.svg',
+        data: {
+          attributes: {
+            alternativeText: 'Desenho de pessoas segurando logos do CSS, JS e HTML',
+            url: 'a.svg',
+          },
+        },
       },
     });
     expect(data.background).toBe(true);
