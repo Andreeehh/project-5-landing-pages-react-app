@@ -84,7 +84,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 .c8 > img {
-  max-height: 2.5rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -303,7 +303,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 .c8 > img {
-  max-height: 2.5rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -329,7 +329,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 .c10::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 0.76rem;
   left: 50%;
   width: 0;
   height: 0.2rem;

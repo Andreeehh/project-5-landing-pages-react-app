@@ -188,7 +188,6 @@ describe('map-sections', () => {
     expect(data.sectionId).toBe('gallery');
     expect(data.title).toBe('Gallery');
     expect(data.description).toBe('Distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.');
-    console.log(data.grid[0]);
     expect(data.grid[0].altText).toBe('Uma paisagem com céu claro e montanhas bonitas');
     expect(data.grid[0].srcImg).toBe(
       'https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_6a2049d13a.jpg',

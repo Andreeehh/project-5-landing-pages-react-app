@@ -89,7 +89,6 @@ export const mapImageGrid = (section = {}) => {
     metadata: { background = false, section_id: sectionId = '' } = false,
     image_grid: grid = [],
   } = section;
-  console.log(grid);
   return {
     component: 'section.section-grid-image',
     title,
