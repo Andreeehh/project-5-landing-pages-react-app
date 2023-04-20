@@ -4,7 +4,7 @@ import { useState } from 'react';
 import * as Styled from './styles';
 
 import { Heading } from '../../components/Heading';
-import { GridTwoColumn } from '../../components/GridTwoColumn';
+import { GridTwoColumns } from '../../components/GridTwoColumn';
 
 import { mapData } from '../../api/map-data';
 
@@ -59,7 +59,7 @@ function Home() {
         const { component } = section;
         const key = `${slug}-${index}`;
         if (component === 'section.section-two-columns') {
-          return <GridTwoColumn key={key} {...section} />;
+          return <GridTwoColumns key={key} {...section} />;
         }
 
         if (component === 'section.section-content') {
