@@ -13,6 +13,8 @@ import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
 import { GridContent } from '../../components/GridContent';
+import { GridText } from '../../components/GridText';
+import { GridImage } from '../../components/GridImage';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -57,12 +59,19 @@ function Home() {
         const { component } = section;
         const key = `${slug}-${index}`;
         if (component === 'section.section-two-columns') {
-          console.log(section);
           return <GridTwoColumn key={key} {...section} />;
         }
 
         if (component === 'section.section-content') {
           return <GridContent key={key} {...section} />;
+        }
+
+        if (component === 'section.section-grid-text') {
+          return <GridText key={key} {...section} />;
+        }
+
+        if (component === 'section.section-grid-image') {
+          return <GridImage key={key} {...section} />;
         }
       })}
     </Base>

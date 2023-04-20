@@ -84,21 +84,21 @@ export const mapTextGrid = (section = {}) => {
 
 export const mapImageGrid = (section = {}) => {
   const {
-    __component: component = '',
     title = '',
     description = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
     image_grid: grid = [],
   } = section;
-
+  console.log(grid);
   return {
     component: 'section.section-grid-image',
     title,
-    description,
     background,
     sectionId,
+    description,
     grid: grid.map((img) => {
-      const { image: { url: srcImg = '', alternativeText: altText = '' } = '' } = img;
+      const srcImg = img?.image?.data[0]?.attributes?.url || '';
+      const altText = img?.image?.data[0]?.attributes?.alternativeText || '';
       return {
         srcImg,
         altText,
