@@ -25,7 +25,9 @@ function Home() {
       const slug = pathName ? pathName : config.defaultSlug;
 
       try {
-        const data = await fetch(`http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`);
+        const data = await fetch(
+          `https://strapi-v4-testss.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
+        );
         const json = await data.json();
         const { attributes } = json.data[0];
         const pageData = mapData([attributes]);
