@@ -6,23 +6,23 @@ Strapi is a CMS (Content Management System) that allows for the creation and man
 
 ## The project consists of different grids that allow for the organization of content. These include:
 
-1.Grid with images
+1. Grid with images
 
-2.Grid with texts
+2. Grid with texts
 
-3.Grid with two columns, one for image and one for text
+3. Grid with two columns, one for image and one for text
 
-4.Section with only text
+4. Section with only text
 
 The site may take up to **30 minutes** to fully load if Strapi is turned off. _This is due to the limitation of the free version of Heroku_, which may shut down the server after a period of inactivity.
 
 ## To run the project locally, follow these steps:
 
-1.Clone the repository to your computer;
+1. Clone the repository to your computer;
 
-2.In the project root folder, run the command "npm install" to install dependencies;
+2. In the project root folder, run the command "npm install" to install dependencies;
 
-3.Run the command "npm start" to start the application.
+3. Run the command "npm start" to start the application.
 
 If there are any connection errors with Strapi, check if the server is active and if the access credentials are correct.
 
