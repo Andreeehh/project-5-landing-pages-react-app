@@ -7,9 +7,13 @@ Strapi is a CMS (Content Management System) that allows for the creation and man
 ## The project consists of different grids that allow for the organization of content. These include:
 
 1.Grid with images
+
 2.Grid with texts
+
 3.Grid with two columns, one for image and one for text
+
 4.Section with only text
+
 The site may take up to **30 minutes** to fully load if Strapi is turned off. _This is due to the limitation of the free version of Heroku_, which may shut down the server after a period of inactivity.
 
 ## To run the project locally, follow these steps:
@@ -31,8 +35,11 @@ O Strapi é um CMS (Content Management System) que permite a criação e gerenci
 ## O projeto é composto por diferentes grids que permitem a organização do conteúdo. São eles:
 
 1. Grid com imagens
+ 
 2. Grid com textos
+ 
 3. Grid com duas colunas, uma de imagem e outra de texto
+ 
 4. Seção só de texto
 
 O site pode apresentar um tempo de espera de até **30 minutos** para ser totalmente carregado, caso o Strapi esteja desligado. _Isso ocorre devido à limitação da versão gratuita do Heroku_, que pode desligar o servidor após um período de inatividade.
